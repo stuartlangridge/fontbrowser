@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "Show all fonts on the system",
+    "framework": "ubuntu-sdk-15.04",
+    "hooks": {
+        "FontBrowser": {
+            "apparmor": "FontBrowser.apparmor",
+            "desktop": "FontBrowser.desktop"
+        }
+    },
+    "maintainer": "Stuart Langridge <sil-launchpad@kryogenix.org>",
+    "name": "org.kryogenix.fontbrowser",
+    "title": "Font Browser",
+    "version": "0.5"
+}
